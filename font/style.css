@@ -1,0 +1,54 @@
+﻿@import url("./fontiran.css"); /* لینک فایلی که وظیفه بارگذاری فونت ها را برعهده دارد */
+body {
+  font-family: IRANSans !important;
+  font-weight: 300;
+  direction: rtl;
+  background-color: #e2e2e2;
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+textarea {
+  font-family: IRANSans !important;
+}
+h1 {
+  font-weight: bold;
+}
+body {
+  background: url("../../itemback.jpg");
+}
+.mantine-Tabs-root {
+  overflow: hidden;
+  overflow-x: hidden;
+}
+.mantine-Image-image {
+  height: 88vh !important;
+  width: auto !important;
+  max-width: 100%;
+  margin: auto;
+}
+button[aria-selected="false"],
+.mantine-1g4f8c1:hover {
+  border: 0.5px solid #c2954c;
+  background-color: transparent;
+  color: #fff;
+}
+.mantine-1g4f8c1[data-active] {
+  background-color: #c2954c;
+}
+.mantine-1g4f8c1:focus {
+  outline: none;
+}
+.mantine-1g4f8c1[data-active]:hover,
+.mantine-1g4f8c1[data-active]:active {
+  background-color: #c2954c;
+}
+
+.mantine-ScrollArea-root {
+  direction: rtl;
+}
