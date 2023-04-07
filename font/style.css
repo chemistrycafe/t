@@ -3,7 +3,6 @@ body {
   font-family: IRANSans !important;
   font-weight: 300;
   direction: rtl;
-  background-color: #e2e2e2;
   margin: 0;
 }
 h1,
@@ -19,6 +18,10 @@ textarea {
 h1 {
   font-weight: bold;
 }
+.mantine-Tabs-panel.mantine-yxmaw9{
+background:#1D1D1B;
+}
+
 .mantine-Tabs-root {
   overflow: hidden;
   overflow-x: hidden;
