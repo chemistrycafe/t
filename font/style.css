@@ -20,7 +20,7 @@ h1 {
   font-weight: bold;
 }
 body {
-  background: url("../../itemback.jpg");
+  background: url("../itemback.jpg");
 }
 .mantine-Tabs-root {
   overflow: hidden;
