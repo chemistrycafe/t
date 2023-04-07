@@ -23,11 +23,10 @@ h1 {
   overflow: hidden;
   overflow-x: hidden;
 }
-.mantine-Image-image {
-  height: 88vh !important;
+img {
+  height: calc(100vh - 36px);
   width: auto !important;
   max-width: 100%;
-  margin: auto;
 }
 button[aria-selected="false"],
 .mantine-1g4f8c1:hover {
@@ -49,4 +48,7 @@ button[aria-selected="false"],
 .mantine-ScrollArea-root {
   direction: rtl;
   background: url("../itemback.jpg");
+}
+.mantine-yxmaw9 {
+  text-align: center;
 }
