@@ -24,7 +24,7 @@ h1 {
   overflow-x: hidden;
 }
 img {
-  height: calc(100dvh - 36px);
+  height: calc(100svh - 36px);
   width: auto !important;
   max-width: 100%;
 }
