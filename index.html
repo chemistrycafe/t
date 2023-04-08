@@ -42,7 +42,7 @@ background:url('./back.jpg');
   overflow-x: hidden;
 }
 img {
-  height: calc(100% - 36px);
+  height: calc(calc(var(--vh, 1vh) * 100) - 36px);
   height: calc(100svh - 36px);
   max-height: calc(100vh - 36px);
   width: auto !important;
@@ -81,6 +81,16 @@ button[aria-selected="false"],
   </head>
   <body>
     <div id="root"></div>
+    <script>
+      let vh = window.innerHeight * 0.01;
+// Then we set the value in the --vh custom property to the root of the document
+document.documentElement.style.setProperty('--vh', `${vh}px`);
+      window.addEventListener('resize', () => {
+  // We execute the same script as before
+  let vh = window.innerHeight * 0.01;
+  document.documentElement.style.setProperty('--vh', `${vh}px`);
+});
+    </script>
   </body>
 </html>
 
