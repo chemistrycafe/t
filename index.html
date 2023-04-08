@@ -8,7 +8,10 @@
     <style>
       @import url("./font/fontiran.css");
       html,body{
-      height: 100%;
+       height: 100%;
+    height: -moz-available;          /* WebKit-based browsers will ignore this. */
+    height: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    height: fill-available;
       }
 body {
   font-family: IRANSans !important;
@@ -78,14 +81,6 @@ button[aria-selected="false"],
   </head>
   <body>
     <div id="root"></div>
-    <script>
-      window.addEventListener("load",function() {
-    setTimeout(function(){
-        // This hides the address bar:
-        window.scrollTo(0, 100);
-    }, 0);
-});
-    </script>
   </body>
 </html>
 
